@@ -23,9 +23,7 @@ end
 if(twits == nil)
   log.error("No Words!")
 else
-  #twit = twits.split[rand(twits.split.size)]
-  twit = twits
-  puts twit
+  twit = twits.split[rand(twits.split.size)]
   twit = twit + " [auto]"
 end
 
